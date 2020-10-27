@@ -83,7 +83,7 @@ export default class extends Component {
                 </Menu.Item>
                 <Menu.Item style={{margin: '0 1em'}} key="Sign up">
                   <a
-                    href="https://app.papercups.io"
+                    href="https://app.papercups.io/login?redirect=/sessions/getting-started"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
