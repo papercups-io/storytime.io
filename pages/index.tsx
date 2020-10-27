@@ -34,11 +34,11 @@ export default class extends Component {
     return (
       <Layout style={{background: colors.white}}>
         <Head>
-          <title>Storytime | Open Source Intercom Alternative</title>
-          <link rel="icon" href="/logo-v2.svg" />
+          <title>Storytime | Open Source Live Chat + Screen Sharing</title>
+          <link rel="icon" href="/storytime-logo.svg" />
           <meta
             name="description"
-            content="Papercups is an open-source live chat widget. Chat with your customers to improve conversions and customer satisfaction."
+            content="Storytime is the easiest way to support users, allowing you to see what they’re doing in real-time while also chatting with them live."
           ></meta>
         </Head>
 
@@ -155,25 +155,13 @@ export default class extends Component {
                   height: 400,
                 }}
               >
-                {displayDemoAsGif ? (
-                  <img
-                    style={{
-                      width: '100%',
-                      boxShadow: '0 24px 48px rgba(17, 16, 62, 0.12)',
-                    }}
-                    src="https://user-images.githubusercontent.com/5264279/96898977-56c27d00-145e-11eb-907b-ca8db13a0fa0.gif"
-                  />
-                ) : (
-                  <iframe
-                    src="https://player.vimeo.com/video/471072025?autoplay=1&loop=1&muted=1"
-                    style={{boxShadow: '0 24px 48px rgba(17, 16, 62, 0.12)'}}
-                    width="100%"
-                    height="100%"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen"
-                    allowFullScreen
-                  ></iframe>
-                )}
+                <img
+                  style={{
+                    width: '100%',
+                    boxShadow: '0 24px 48px rgba(17, 16, 62, 0.12)',
+                  }}
+                  src="https://user-images.githubusercontent.com/5264279/96898977-56c27d00-145e-11eb-907b-ca8db13a0fa0.gif"
+                />
               </Flex>
             </Box>
 
