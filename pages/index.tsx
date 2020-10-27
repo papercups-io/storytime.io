@@ -29,12 +29,12 @@ export default class extends Component {
   }
 
   render() {
-    const displayDemoAsGif = true; // TODO
-
     return (
       <Layout style={{background: colors.white}}>
         <Head>
-          <title>Storytime | Open Source Live Chat + Screen Sharing</title>
+          <title>
+            Storytime by Papercups | Open Source Live Chat + Screen Sharing
+          </title>
           <link rel="icon" href="/storytime-logo.svg" />
           <meta
             name="description"
