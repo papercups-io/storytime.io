@@ -74,7 +74,7 @@ export default class extends Component {
                 </Menu.Item>
                 <Menu.Item style={{margin: '0 1em'}} key="github">
                   <a
-                    href="https://github.com/papercups-io/papercups"
+                    href="https://github.com/papercups-io/storytime"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -100,12 +100,12 @@ export default class extends Component {
             <Box pt={80} mx={[0, 4]} mb={5}>
               <Box mb={5} sx={{textAlign: 'center'}}>
                 <Title level={1}>
-                  View and chat with your users in real time.
+                  Observe and interact with your users, live.
                 </Title>
 
                 <Paragraph>
                   Open source customer messaging with built-in screen sharing
-                  through the browser. Get started in minutes.
+                  through the browser. 🚀
                 </Paragraph>
 
                 <Flex
@@ -114,7 +114,7 @@ export default class extends Component {
                 >
                   <Box mr={2}>
                     <a
-                      href="https://github.com/papercups-io/papercups"
+                      href="https://github.com/papercups-io/storytime"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -129,7 +129,7 @@ export default class extends Component {
                   </Box>
                   <Box mr={2}>
                     <a
-                      href="https://app.papercups.io/register"
+                      href="https://app.papercups.io/register?redirect=/sessions/getting-started"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -155,13 +155,15 @@ export default class extends Component {
                   height: 400,
                 }}
               >
-                <img
+                <iframe
+                  src="https://www.loom.com/embed/62ab4e7a881b4b60a67134c32e6a7899"
+                  frameBorder="0"
+                  allowFullScreen
                   style={{
                     width: '100%',
-                    boxShadow: '0 24px 48px rgba(17, 16, 62, 0.12)',
+                    height: '100%',
                   }}
-                  src="https://user-images.githubusercontent.com/5264279/96898977-56c27d00-145e-11eb-907b-ca8db13a0fa0.gif"
-                />
+                ></iframe>
               </Flex>
             </Box>
 
@@ -318,7 +320,7 @@ export default class extends Component {
               </Flex>
               <Flex flex={1} mx={3} my={[3, 0]} justifyContent="center">
                 <a
-                  href="https://github.com/papercups-io/papercups"
+                  href="https://github.com/papercups-io/storytime"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
